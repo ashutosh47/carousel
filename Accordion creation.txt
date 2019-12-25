@@ -1,0 +1,58 @@
+<-------Accordion creation with button-->
+
+1.first create a div to change the position of button where you want for example if you want button in the center of screen use class="d-flex justify-content-center" in a div.
+
+2.use button tag to create a button in div tag.
+class="btn btn-primary"
+data-toggle="collapse"
+data-target="#btn-collapse"
+
+3.use div with class="collaspe" and id="collpase-btn"
+
+4.use div with class="card"
+5 use div with class="card-body"
+6 use <p> tag to wrte content. 
+
+you can give margin pading according to your need.
+
+
+
+<---------------Accordion creation with card-header click
+
+1.div tag with id="accordion"
+
+2 div tag with class="card"
+
+3 div tag with class="card-header"
+
+4.use <h3 tag for heading liKE ACORDION 0
+
+5 INSIDE H3 TAG use <a>tag after card header with 
+  href="#collapse1" 
+  data-parent="#accordion" 
+  data-toggle="collapse"
+
+ACCORDION 0 </h3>	
+
+6.use div with 
+id="collapse1"
+class="collapse-show"
+
+7.use div with class="card-body"
+
+8.use <p tag to write the content.
+
+
+just like you can create more accordions.
+ Note: if you dont want to activate accordion for the remaining accordion 
+use only class="collapse" in step 6.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
